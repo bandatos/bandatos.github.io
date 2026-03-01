@@ -28,6 +28,13 @@ a:hover {
   padding-left: 20px;
   padding-right: 24px;
 }
+.site-header .site-logo {
+  max-height: 6rem;
+  width: auto;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+}
 .site-header .site-nav .trigger .page-link:last-child {
   margin-right: 0;
 }
@@ -36,6 +43,27 @@ a:hover {
 .site-footer {
   border-top-color: var(--bandatos-verde);
   background-color: var(--bandatos-crema-oscuro);
+}
+
+.footer-nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1em;
+  align-items: center;
+}
+.footer-nav-links li::before {
+  content: none;
+}
+.footer-nav-links li:not(:last-child)::after {
+  content: " · ";
+  margin-left: 0.25em;
+  color: inherit;
+}
+.footer-nav-links a {
+  text-decoration: none;
 }
 
 /* Segunda sección del footer: iconos de redes en horizontal */
@@ -185,51 +213,35 @@ a:hover {
 /* ========== Mobile / responsive ========== */
 @media screen and (max-width: 768px) {
   .site-header {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .site-header .wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: 16px;
-    padding-right: 16px;
-    min-height: auto;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    min-height: 52px;
   }
 
   .site-header .site-title {
-    float: none;
-    margin-right: auto;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
   }
 
   .site-header .site-logo {
     max-height: 4rem;
-  }
-
-  .site-header .site-nav {
-    float: none;
-    width: 100%;
-    margin-top: 12px;
-    padding-top: 12px;
-    border-top: 1px solid var(--bandatos-crema-oscuro);
+    max-width: 180px;
+    object-fit: contain;
   }
 
   .site-header .site-nav .trigger {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 16px;
     padding-right: 0;
   }
 
-  .site-header .site-nav .page-link {
-    display: inline-block;
-    padding: 6px 0;
-    margin-right: 16px;
-    min-height: 44px;
-    line-height: 2;
-    box-sizing: border-box;
-  }
-
-  .site-header .site-nav .page-link:last-child {
-    margin-right: 0;
+  .site-header .site-nav {
+    border-color: var(--bandatos-crema-oscuro);
   }
 
   .site-footer .wrapper {
@@ -252,6 +264,14 @@ a:hover {
     margin-bottom: 0;
   }
 
+  .footer-nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em 0;
+  }
+  .footer-nav-links li:not(:last-child)::after {
+    content: none;
+  }
   .page-content .wrapper {
     padding-left: 16px;
     padding-right: 16px;
@@ -283,7 +303,7 @@ a:hover {
   }
 
   img.site-logo {
-    max-width: 100%;
+    max-width: min(200px, 55vw);
   }
 
   .home-proyectos-grid {
@@ -298,11 +318,8 @@ a:hover {
   }
 
   .site-header .site-logo {
-    max-height: 3.25rem;
-  }
-
-  .site-header .site-nav .page-link {
-    margin-right: 12px;
+    max-height: 3.5rem;
+    max-width: 160px;
   }
 
   .site-footer .wrapper,

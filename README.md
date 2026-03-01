@@ -45,13 +45,107 @@ bandatos.github.io/
 
 ## Contenido y datos
 
-### Convocatorias (`_data/convocatorias.yml`)
+### Cómo agregar una convocatoria
 
-Cada entrada tiene: `fecha`, `titulo`, `tipo` (sesion|mapaton), `lugar`, `horario`, `descripcion`, `proyectos`, y opcionalmente `imagen`, `notas`, `enlace_registro`. La home muestra la próxima sesión (título, fecha, horario; sin dirección). La dirección solo se muestra en Convocatorias y en Participar.
+Las convocatorias se editan en **`_data/convocatorias.yml`**. La **primera entrada** del archivo es la que se muestra como **próxima sesión** en la home y en la página Convocatorias; el resto forma el historial (ordenado de más reciente a más antigua).
 
-### Proyectos (`_data/proyectos.yml`)
+**1. Abrir el archivo:** `_data/convocatorias.yml`
 
-Cada proyecto: `slug`, `nombre`, `etiqueta`, `emoji`, `descripcion`, `activo` (true/false), `repo`, `demo`. En la home se muestran solo los activos, en tarjetas 2×2, **excluyendo Metabandatos** (sigue en la página /proyectos/). El orden en el YAML define el orden en la web.
+**2. Añadir una nueva entrada al inicio.** La convocatoria más reciente debe ir **primera** (arriba de todo). Copia el bloque de una convocatoria existente y pégalo después de la línea del schema (los comentarios `# Schema: ...`), antes del primer `- fecha:`.
+
+**3. Campos de cada convocatoria:**
+
+| Campo | Obligatorio | Descripción | Ejemplo |
+|-------|-------------|-------------|---------|
+| **fecha** | Sí | Fecha en formato `YYYY-MM-DD`. | `"2026-03-12"` |
+| **titulo** | Sí | Título que se muestra en la home y en Convocatorias. | `"Convocatoria #Bandatos Marzo"` |
+| **tipo** | Sí | `sesion` o `mapaton`. | `sesion` |
+| **lugar** | Sí | Dirección o punto de encuentro (se muestra en Convocatorias, no en la home). | `"Nativo Condesa, Culiacán 15, CDMX"` |
+| **horario** | Sí | Hora de inicio o rango. Texto libre. | `"19:00"` o `"7:00 – 9:30"` |
+| **descripcion** | Sí | Texto que describe la sesión. | Una o dos frases. |
+| **proyectos** | Sí | Lista de proyectos que se tocarán. Puede ser `[]` si no hay. | `- Metabandatos` y más items |
+| **imagen** | No | Ruta a un flyer (desde la raíz del sitio). Ej. `/convocatorias/mi-flyer.svg`. Si no hay, no incluyas la clave. | `"/convocatorias/bandaton.svg"` |
+| **enlace_registro** | No | URL de formulario de inscripción; se muestra enlace "Inscripción". | URL completa |
+| **notas** | No | Notas internas; no se muestran en la web. | Opcional |
+
+**4. Ejemplo completo:**
+
+```yaml
+- fecha: "2026-03-12"
+  titulo: "Convocatoria #Bandatos Marzo"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Sesión para avanzar en proyectos activos y preparar el Open Data Day."
+  proyectos:
+    - Metabandatos
+    - "Pendientes y escaleras"
+    - Mapabaches
+  imagen: "/convocatorias/flyer-marzo.svg"
+```
+
+Si hay **imagen**, el archivo debe existir en el repo (ej. en `convocatorias/flyer-marzo.svg`). Si no tienes flyer, no incluyas la línea `imagen:`.
+
+**5. Verificar:** Guarda, ejecuta `bundle exec jekyll serve` y revisa la home y `/convocatorias/`. La próxima sesión es siempre la primera entrada del YAML.
+
+---
+
+### Cómo agregar un proyecto
+
+Los proyectos se editan en **`_data/proyectos.yml`**. Aparecen en la página **Proyectos** (activos primero, luego "En la mesa"). Los **activos** salen también en la **home** en tarjetas, excepto Metabandatos.
+
+**1. Abrir el archivo:** `_data/proyectos.yml`
+
+**2. Añadir una nueva entrada.** Añade un nuevo bloque `- slug: ...` al final del archivo (o en la posición que quieras: el orden en el YAML es el orden en la web). Usa indentación de 2 espacios.
+
+**3. Campos de cada proyecto:**
+
+| Campo | Obligatorio | Descripción | Ejemplo |
+|-------|-------------|-------------|---------|
+| **slug** | Sí | Identificador único en minúsculas, sin espacios (guiones sí). No se muestra; se usa para filtros. | `mi-proyecto` |
+| **nombre** | Sí | Nombre completo del proyecto (título en Proyectos y en tarjetas de la home). | `"Mi proyecto"` |
+| **etiqueta** | Sí | Suele ser igual que el nombre. | `"Mi proyecto"` |
+| **emoji** | Sí | Un emoji que representa el proyecto (entre comillas). | `"🗺️"` |
+| **descripcion** | Sí | Texto corto. En la home se trunca a ~100 caracteres. | Una o dos frases. |
+| **activo** | Sí | `true` = proyecto activo (home + "Proyectos activos"). `false` = "En la mesa". | `true` o `false` |
+| **repo** | No | URL del repositorio. Si no hay, `""`. | `"https://github.com/bandatos/..."` |
+| **demo** | No | URL del sitio o demo. Si no hay, `""`. | `"https://bandatos.github.io/..."` |
+
+**4. Ejemplo (proyecto activo):**
+
+```yaml
+- slug: mi-nuevo-proyecto
+  nombre: Mi nuevo proyecto
+  etiqueta: Mi nuevo proyecto
+  emoji: "🔧"
+  descripcion: "Herramienta para visualizar datos de movilidad en CDMX."
+  activo: true
+  repo: "https://github.com/bandatos/mi-nuevo-proyecto"
+  demo: "https://bandatos.github.io/mi-nuevo-proyecto/"
+```
+
+**Ejemplo (proyecto en la mesa):**
+
+```yaml
+- slug: idea-futura
+  nombre: Idea futura
+  etiqueta: Idea futura
+  emoji: "💡"
+  descripcion: "Proyecto en conversación; aún no hay repo."
+  activo: false
+  repo: ""
+  demo: ""
+```
+
+**5. Orden y visibilidad:**
+
+- **Orden:** El orden en el archivo es el orden en la web. Para mover un proyecto (ej. Metabandatos al final de activos), corta y pega su bloque.
+- **Home:** En la home solo se muestran proyectos con `activo: true` y se **excluye** el de `slug: metabandatos`. Para que un proyecto nuevo aparezca en la home, pon `activo: true` y un slug distinto de `metabandatos`.
+- **Repo y demo:** Si no hay URL, deja `repo: ""` y `demo: ""`. Los enlaces "Repositorio" y "Demo / sitio" solo se muestran cuando hay valor.
+
+**6. Verificar:** Guarda y revisa la página **Proyectos** y, si es activo, la **home**.
+
+---
 
 ## Diseño y UX
 

@@ -35,5 +35,3 @@ Los proyectos son propuestos por quienes asisten. Puedes sumarte a uno activo o 
 {% endfor %}
 
 </div>
-
-[Convocatorias](/convocatorias/) · [Participar](/participar/)

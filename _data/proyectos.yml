@@ -13,7 +13,7 @@
   nombre: Todo Derecho Vecino
   etiqueta: Todo Derecho Vecino
   emoji: "⚖️"
-  descripcion: "Herramientas legales y temas vecinales con datos. Acompañamiento legal para ciudadanos afectados por temas vecinales."
+  descripcion: "Herramientas legales y temas vecinales con datos. Acompañamiento legal para personas afectadas por temas vecinales."
   activo: true
   repo: "https://github.com/bandatos/todo-derecho-vecino"
   demo: "https://bandatos.github.io/todo-derecho-vecino/"

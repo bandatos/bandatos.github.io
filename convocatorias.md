@@ -4,7 +4,7 @@ title: 📅 Convocatorias
 permalink: /convocatorias/
 ---
 
-Cada sesión genera la convocatoria de la siguiente (registro de avances y necesidades al cierre). Para recibir convocatorias: [formulario de participación](/participar/).
+Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se registran al cierre). Para recibir convocatorias o sumarte: [Participar](/participar/).
 
 ## Próxima sesión
 
@@ -29,7 +29,7 @@ Cada sesión genera la convocatoria de la siguiente (registro de avances y neces
 [Inscripción]({{ proxima.enlace_registro }})
 {% endif %}
 {% else %}
-No hay convocatoria próxima cargada. Revisa el [grupo de Telegram](https://t.me/+hA6EOxauLz1jZWRh) o [Instagram](https://www.instagram.com/bandatos_cdmx/) para estar al tanto.
+Aún no hay próxima convocatoria. Revisa el [grupo de Telegram](https://t.me/+hA6EOxauLz1jZWRh) o [Instagram](https://www.instagram.com/bandatos_cdmx/) para estar al tanto.
 {% endif %}
 
 ---
@@ -40,5 +40,3 @@ No hay convocatoria próxima cargada. Revisa el [grupo de Telegram](https://t.me
 - **{{ c.fecha }}** — {{ c.titulo }} ({{ c.tipo }}): {{ c.descripcion | truncate: 120 }}
   {% if c.imagen %}<br/><img src="{{ c.imagen | relative_url }}" alt="Flyer {{ c.titulo }}" style="max-width: 280px; height: auto; margin-top: 0.25em;" />{% endif %}
 {% endfor %}
-
-[Únete a Bandatos →](/participar/)

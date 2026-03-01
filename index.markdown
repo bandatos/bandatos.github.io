@@ -11,7 +11,7 @@ Espacio **abierto, no técnico**; no se requiere experiencia previa. Lo hacemos 
 
 **Dónde y cuándo:** Cada quince días, los miércoles, 7:00 a 9:30 h. Trae algo para compartir (comida o bebida). [Participar →](/participar/)
 
-## Próxima sesión
+## 📅 Próxima sesión
 
 {% assign convocatorias_ordenadas = site.data.convocatorias | sort: "fecha" | reverse %}
 {% assign proxima = convocatorias_ordenadas | first %}
@@ -23,7 +23,7 @@ Espacio **abierto, no técnico**; no se requiere experiencia previa. Lo hacemos 
 [Ver convocatorias →](/convocatorias/)
 {% endif %}
 
-## Proyectos activos
+## 📂 Proyectos activos
 
 {% assign activos = site.data.proyectos | where: "activo", true | where_exp: "item", "item.slug != 'metabandatos'" %}
 <div class="home-proyectos-grid">
