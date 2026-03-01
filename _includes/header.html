@@ -1,0 +1,15 @@
+<header class="site-header">
+  <a class="site-title" href="{{ '/' | relative_url }}">
+    {% if site.logo %}
+      <img src="{{ site.logo | relative_url }}" alt="{{ site.title | escape }}" class="site-logo" width="640" height="640" style="max-height: 6rem; width: auto;" />
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
+  </a>
+  {% assign default_paths = site.pages | map: "path" %}
+  {% assign page_paths = site.minima.nav_pages | default: default_paths %}
+  {% assign page_titles = site.pages | map: 'title' | compact %}
+  {% unless page_titles == empty %}
+    {% include nav-items.html paths=page_paths %}
+  {% endunless %}
+</header>

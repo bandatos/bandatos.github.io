@@ -1,0 +1,12 @@
+{% comment %}
+  Embed del feed de Instagram.
+  Si en _config.yml está definido site.instagram_feed_api_url (URL del API de NoCodeAPI),
+  se muestra el web component. Obtener la URL en https://nocodeapi.com/instagram-api
+{% endcomment %}
+{% if site.instagram_feed_api_url != nil and site.instagram_feed_api_url != "" %}
+<section class="instagram-feed-section" aria-label="Últimas publicaciones en Instagram">
+  <h2 class="instagram-feed-title">Últimas publicaciones en Instagram</h2>
+  <script type="module" src="https://unpkg.com/@nocodeapi/embed-instagram-feed@latest/embed-instagram-feed.js?module"></script>
+  <embed-instagram-feed url="{{ site.instagram_feed_api_url }}"></embed-instagram-feed>
+</section>
+{% endif %}

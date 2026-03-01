@@ -1,0 +1,4 @@
+# Logo del sitio
+# Coloca aquí la imagen: **bandatos_photo_2025-07-07_08-55-38.png** (o .jpg)
+# Si usas .jpg, cambia en _config.yml la línea `logo:` a:
+#   logo: "/assets/images/bandatos_photo_2025-07-07_08-55-38.jpg"

@@ -24,6 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   Comunidad mexicana de daterxs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Logo del sitio (tres formas + texto BANDATOS)
+logo: "/assets/images/bandatos_photo_2025-07-07_08-55-38.png"
+# Feed de Instagram (opcional): URL del API de NoCodeAPI para mostrar últimas publicaciones.
+# Obtener en https://nocodeapi.com/instagram-api (conectar cuenta Instagram y copiar la URL del endpoint).
+# Si está vacío, no se muestra la sección.
+instagram_feed_api_url: ""
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
@@ -31,6 +37,20 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+
+# Reducir avisos de deprecación de Sass (vienen del tema Minima)
+sass:
+  quiet_deps: true
+  silence_deprecations: ["import", "global-builtin", "color-functions"]
+
+# Navegación (Minima v3: nav_pages bajo minima)
+minima:
+  nav_pages:
+    - convocatorias.md
+    - participar.md
+    - proyectos.md
+    - como-trabajamos.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

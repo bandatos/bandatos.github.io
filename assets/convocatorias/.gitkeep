@@ -1,0 +1,3 @@
+# Imágenes de convocatorias (flyers)
+# Opcional: añade archivos con el nombre de la fecha, ej. 2026-01-28.png, 2025-10-22.png
+# y en _data/convocatorias.yml ya están referenciados con imagen: "/assets/convocatorias/2026-01-28.png"

@@ -1,0 +1,73 @@
+# Proyectos: slug, nombre, etiqueta, emoji, descripcion, activo, repo, demo
+
+- slug: pendientes-escaleras
+  nombre: Pendientes y escaleras
+  etiqueta: Pendientes y escaleras
+  emoji: "🚇"
+  descripcion: "Mapeo de accesibilidad en el Metro: escaleras, elevadores, salvaescaleras; app para voluntaries; mapatones. Visibilizar desigualdades en el transporte público CDMX."
+  activo: true
+  repo: "https://github.com/bandatos/pendientes-y-escaleras"
+  demo: "https://bandatos.github.io/pendientes-y-escaleras/"
+
+- slug: todo-derecho-vecino
+  nombre: Todo Derecho Vecino
+  etiqueta: Todo Derecho Vecino
+  emoji: "⚖️"
+  descripcion: "Herramientas legales y temas vecinales con datos. Acompañamiento legal para ciudadanos afectados por temas vecinales."
+  activo: true
+  repo: "https://github.com/bandatos/todo-derecho-vecino"
+  demo: "https://bandatos.github.io/todo-derecho-vecino/"
+
+- slug: mapabaches
+  nombre: Mapabaches
+  etiqueta: Mapabaches
+  emoji: "🗺️"
+  descripcion: "Mapeador de baches (datos sobre baches en CDMX)."
+  activo: true
+  repo: "https://github.com/bandatos/mapabaches"
+  demo: ""
+
+- slug: banquetas
+  nombre: Banquetas del terror
+  etiqueta: Banquetas del terror
+  emoji: "🛣️"
+  descripcion: "Proyecto sobre banquetas (convocatorias 2026)."
+  activo: true
+  repo: ""
+  demo: ""
+
+- slug: metabandatos
+  nombre: Metabandatos
+  etiqueta: Metabandatos
+  emoji: "📋"
+  descripcion: "Gobernanza y mejora continua de la comunidad (retrospectivas, formas de trabajo)."
+  activo: true
+  repo: ""
+  demo: ""
+
+- slug: pigmentocracia
+  nombre: Pigmentocracia
+  etiqueta: Pigmentocracia
+  emoji: "🎨"
+  descripcion: "Proyecto citado en sesiones 2026."
+  activo: false
+  repo: "https://github.com/representacion/representacion.github.io"
+  demo: ""
+
+- slug: datos-legislativos
+  nombre: Ley de estándares de datos legislativos
+  etiqueta: Ley datos legislativos
+  emoji: "🏛️"
+  descripcion: "Con BORDE: estándares para que el trabajo del Congreso sea transparente, accesible y analizable; proyecto de ley de información legislativa."
+  activo: false
+  repo: ""
+  demo: ""
+
+- slug: anexos-pef
+  nombre: Anexos transversales PEF
+  etiqueta: Anexos PEF
+  emoji: "📊"
+  descripcion: "Anexos del Presupuesto de Egresos de la Federación; script de extracción a tablas."
+  activo: false
+  repo: ""
+  demo: ""
