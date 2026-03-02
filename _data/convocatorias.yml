@@ -21,7 +21,7 @@
   lugar: "Nativo Condesa, Culiacán 15, CDMX"
   horario: "19:00"
   descripcion: "Enfocarnos en organizarnos para el evento del día de los datos abiertos y avanzar con los proyectos activos. Búsqueda de perfiles con conocimiento en análisis de imágenes con IA."
-  imagen: "/convocatorias/bandaton.svg"
+  imagen: "/assets/images/convocatorias/bandaton.svg"
   proyectos:
     - Metabandatos
     - "Pendientes & Escaleras"
