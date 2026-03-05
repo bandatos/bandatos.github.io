@@ -1,6 +1,17 @@
 # Convocatorias extraídas de convocatorias.txt (más reciente primero)
 # Schema: fecha, titulo, tipo (sesion|mapaton), lugar, horario, descripcion, proyectos, enlace_registro (opcional), imagen (opcional)
 
+- fecha: "2026-03-07"
+  titulo: "Convocatoria #Bandatos"
+  tipo: sesion
+  lugar: "Colegio de San Ildefonso. San Ildefonso 43, CDMX"
+  horario: "10:00"
+  descripcion: "Open Data Day 2026. Taller de acción colectiva. Espacio Bandatos: Monitoreo del estado de accesibilida urbana. Presentación del colectivo Bandatos y los proyectos en curso."
+  proyectos:
+    - escaleras
+    - banquetas
+    - baches
+    - vecinos
 - fecha: "2026-02-26"
   titulo: "Reunión Bandatos – enfoque Open Data Day"
   tipo: sesion
@@ -21,11 +32,11 @@
   lugar: "Nativo Condesa, Culiacán 15, CDMX"
   horario: "19:00"
   descripcion: "Enfocarnos en organizarnos para el evento del día de los datos abiertos y avanzar con los proyectos activos. Búsqueda de perfiles con conocimiento en análisis de imágenes con IA."
-  imagen: "/assets/images/convocatorias/bandaton.svg"
   proyectos:
     - Metabandatos
     - "Pendientes & Escaleras"
     - "Todo Derecho Vecino"
+    - Pigmentocracia
     - Mapabaches
 
 - fecha: "2026-01-28"
@@ -84,6 +95,7 @@
   lugar: "Cerca de metro Chilpancingo"
   horario: "11:00"
   descripcion: "Mapear las escaleras eléctricas del Metro para identificar el estado en que están. Punto de encuentro cerca de metro Chilpancingo."
+  imagen: "/assets/images/convocatorias/mapaton-2025-10-17.jpg"
   proyectos:
     - "Pendientes y escaleras"
   enlace_registro: "https://docs.google.com/forms/d/e/1FAIpQLScmLGXXhT2heo3w6UeEegiNVb8BpPbkZbI8RvaF9ACAba-tdg/viewform"
@@ -94,6 +106,7 @@
   lugar: "Nativo Condesa, Culiacán 15, CDMX"
   horario: "19:00"
   descripcion: "Finalizar detalles de la app para voluntaries y organizar el mapatón del sábado 25."
+  imagen: "/assets/images/convocatorias/oct25-2025-10-20.jpg"
   proyectos:
     - "Pendientes y escaleras"
 
@@ -103,6 +116,7 @@
   lugar: "Espacio Nativo, Culiacán 15, Col. Hipódromo"
   horario: "7:00 – 9:30"
   descripcion: "Formulario para mapear escaleras eléctricas, elevadores y salvaescaleras; reto de identificadores; mapatón abierto. Ley de estándares de datos legislativos con BORDE."
+  imagen: "/assets/images/convocatorias/photo-2025-09-22.jpg"
   proyectos:
     - "Accesibilidad en el Metro"
     - "Ley de estándares de datos legislativos"

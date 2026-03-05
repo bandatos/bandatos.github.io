@@ -4,6 +4,8 @@ title: 📅 Convocatorias
 permalink: /convocatorias/
 ---
 
+<div class="convocatorias-page">
+
 Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se registran al cierre). Para recibir convocatorias o sumarte: [Participar](/participar/).
 
 ## Próxima sesión
@@ -12,31 +14,50 @@ Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se 
 {% assign proxima = convocatorias_ordenadas | first %}
 
 {% if proxima %}
-**{{ proxima.titulo }}**  
-📅 {{ proxima.fecha }} · {{ proxima.horario }}  
-📍 {{ proxima.lugar }}
+<div class="convocatoria-proxima">
+  <p><strong>{{ proxima.titulo }}</strong><br />
+  📅 {{ proxima.fecha }} · {{ proxima.horario }}<br />
+  📍 {{ proxima.lugar }}</p>
 
-{% if proxima.imagen %}
-<p><img src="{{ proxima.imagen | relative_url }}" alt="Flyer {{ proxima.titulo }}" class="convocatoria-flyer" style="max-width: 100%; height: auto;" /></p>
-{% endif %}
+  {% if proxima.imagen %}
+  <div class="convocatoria-flyer-wrap convocatoria-flyer-wrap--proxima">
+    <img src="{{ proxima.imagen | relative_url }}" alt="Flyer {{ proxima.titulo }}" class="convocatoria-flyer" loading="lazy" />
+  </div>
+  {% endif %}
 
-{{ proxima.descripcion }}
+  <p>{{ proxima.descripcion }}</p>
 
-{% if proxima.proyectos.size > 0 %}
-**Proyectos:** {{ proxima.proyectos | join: ", " }}
-{% endif %}
-{% if proxima.enlace_registro %}
-[Inscripción]({{ proxima.enlace_registro }})
-{% endif %}
+  {% if proxima.proyectos.size > 0 %}
+  <p><strong>Proyectos:</strong> {{ proxima.proyectos | join: ", " }}</p>
+  {% endif %}
+  {% if proxima.enlace_registro %}
+  <p><a href="{{ proxima.enlace_registro }}">Inscripción</a></p>
+  {% endif %}
+</div>
 {% else %}
-Aún no hay próxima convocatoria. Revisa el [grupo de Telegram](https://t.me/+hA6EOxauLz1jZWRh) o [Instagram](https://www.instagram.com/bandatos_cdmx/) para estar al tanto.
+<p>Aún no hay próxima convocatoria. Revisa el <a href="https://t.me/+hA6EOxauLz1jZWRh">grupo de Telegram</a> o <a href="https://www.instagram.com/bandatos_cdmx/">Instagram</a> para estar al tanto.</p>
 {% endif %}
 
 ---
 
 ## Historial de convocatorias
 
+<div class="convocatorias-lista">
 {% for c in convocatorias_ordenadas offset:1 %}
-- **{{ c.fecha }}** — {{ c.titulo }} ({{ c.tipo }}): {{ c.descripcion | truncate: 120 }}
-  {% if c.imagen %}<br/><img src="{{ c.imagen | relative_url }}" alt="Flyer {{ c.titulo }}" style="max-width: 280px; height: auto; margin-top: 0.25em;" />{% endif %}
+  <article class="convocatoria-card">
+    <header class="convocatoria-card-header">
+      <span class="convocatoria-fecha">{{ c.fecha }}</span>
+      <span class="convocatoria-tipo convocatoria-tipo--{{ c.tipo }}">{{ c.tipo }}</span>
+    </header>
+    <h3 class="convocatoria-titulo">{{ c.titulo }}</h3>
+    <p class="convocatoria-descripcion">{{ c.descripcion }}</p>
+    {% if c.imagen %}
+    <div class="convocatoria-flyer-wrap">
+      <img src="{{ c.imagen | relative_url }}" alt="Flyer {{ c.titulo }}" class="convocatoria-flyer" loading="lazy" />
+    </div>
+    {% endif %}
+  </article>
 {% endfor %}
+</div>
+
+</div>
