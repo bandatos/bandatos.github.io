@@ -2,8 +2,8 @@
 # Schema: fecha, titulo, tipo (sesion|mapaton), lugar, horario, descripcion, proyectos, enlace_registro (opcional), imagen (opcional)
 
 - fecha: "2026-03-07"
-  titulo: "Convocatoria #Bandatos"
-  tipo: sesion
+  titulo: "Día de los datos abiertos 2026"
+  tipo: taller
   lugar: "Colegio de San Ildefonso. San Ildefonso 43, CDMX"
   horario: "10:00"
   descripcion: "Open Data Day 2026. Taller de acción colectiva. Espacio Bandatos: Monitoreo del estado de accesibilida urbana. Presentación del colectivo Bandatos y los proyectos en curso."

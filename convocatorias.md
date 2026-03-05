@@ -4,8 +4,6 @@ title: 📅 Convocatorias
 permalink: /convocatorias/
 ---
 
-<div class="convocatorias-page">
-
 Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se registran al cierre). Para recibir convocatorias o sumarte: [Participar](/participar/).
 
 ## Próxima sesión
@@ -58,6 +56,4 @@ Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se 
     {% endif %}
   </article>
 {% endfor %}
-</div>
-
 </div>
