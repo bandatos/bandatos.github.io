@@ -19,11 +19,8 @@ Escanea el código para ir a **@bandatos_cdmx**:
 
 ## 📝 Registro opcional
 
-Si quieres recibir convocatorias o que te contactemos, mándanos:
+Si quieres recibir convocatorias o que te contactemos, completa el <a href="https://docs.google.com/forms/d/1B5lhHI395cWfJG4RXyjKFazXZl13L-7iaQAqwbfify4/viewform" target="_blank" rel="noopener">formulario de registro</a>.
 
-- Nombre o apodo
-- Telegram y correo
-- Habilidades y qué te interesa de Bandatos
-- Autorización para uso de datos
+El formulario pide aceptar el <a href="https://docs.google.com/document/d/1dLQD0SgRNPA29JDrdhMAkc2BZdpv-AF1RctxjCmQF5A/edit" target="_blank" rel="noopener">código de convivencia</a> y el <a href="https://docs.google.com/document/d/1Sqk5cPvcsyFL_69hiiPmUHRVNwZt94FdWxjOEsIhDfc/edit" target="_blank" rel="noopener">protocolo de resolución de disputas</a> de Bandatos (ambos, propuestas provisionales en discusión desde el 28 de marzo de 2026, aún no aprobadas por consenso del grupo).
 
-Puedes venir sin registrarte. **Para registrarte:** <a href="mailto:cdmx.bandatos@gmail.com">cdmx.bandatos@gmail.com</a>
+Puedes venir sin registrarte.

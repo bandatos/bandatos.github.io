@@ -35,3 +35,7 @@ Cada proyecto tiene un formato de propuesta:
 ## 🔁 Retrospectivas
 
 Trimestrales (Metabandatos — el proyecto de gobernanza de la comunidad): qué funciona y qué no, revisión de proyectos activos, relaciones y formas de trabajo.
+
+## 🛡️ Convivencia
+
+Bandatos cuenta con un [código de convivencia](https://docs.google.com/document/d/1dLQD0SgRNPA29JDrdhMAkc2BZdpv-AF1RctxjCmQF5A/edit) y un [protocolo de resolución de disputas](https://docs.google.com/document/d/1Sqk5cPvcsyFL_69hiiPmUHRVNwZt94FdWxjOEsIhDfc/edit), adaptados de SocialTIC. Son propuestas provisionales, en discusión desde el 28 de marzo de 2026, todavía no aceptadas por consenso de todo el grupo.
