@@ -1,6 +1,144 @@
 # Convocatorias extraídas de convocatorias.txt (más reciente primero)
 # Schema: fecha, titulo, tipo (sesion|mapaton), lugar, horario, descripcion, proyectos, enlace_registro (opcional), imagen (opcional)
 
+- fecha: "2026-07-15"
+  titulo: "Convocatoria #Bandatos — por definir"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Detalles de esta convocatoria todavía por definir."
+  proyectos: []
+
+- fecha: "2026-07-01"
+  titulo: "Convocatoria #Bandatos Julio"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Seguimos trabajando en Pendientes & Escaleras, en el prototipo de chatbot para activismo urbano de Todo Derecho Vecino, y arrancamos Boletín Judicial Accesible. Elaboramos el código de convivencia desde Metabandatos. Buscamos colaboración en ordenamiento territorial CDMX y frontend web."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - "Boletín Judicial Accesible"
+    - Metabandatos
+  imagen: "/assets/images/convocatorias/photo_2026-06-30.jpg"
+
+- fecha: "2026-06-25"
+  titulo: "Convocatoria #Bandatos – nuevo capítulo"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Comenzamos un nuevo capítulo: conversamos entre todes qué proyectos impulsaremos o armaremos y cómo queremos funcionar. Un espacio de todas las personas del grupo."
+  proyectos: []
+  imagen: "/assets/images/convocatorias/photo_2026-06-25.jpg"
+
+- fecha: "2026-06-10"
+  titulo: "Convocatoria #Bandatos Junio"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Procesamos el resultado del mapatón de la línea 12 en Pendientes & Escaleras, avanzamos el prototipo de chatbot para activismo urbano de Todo Derecho Vecino, y elaboramos el código de convivencia desde Metabandatos. Buscamos colaboración en ordenamiento territorial CDMX y frontend web."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - Metabandatos
+  imagen: "/assets/images/convocatorias/photo_2026-06-10.jpg"
+
+- fecha: "2026-06-04"
+  titulo: "Convocatoria #Bandatos"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Cerramos la cooperación con Isla Urbana y discutimos los próximos pasos de la comunidad."
+  proyectos:
+    - "Isla Urbana"
+  imagen: "/assets/images/convocatorias/photo_2026-06-04.jpg"
+
+- fecha: "2026-06-06"
+  titulo: "Mapatón accesibilidad Línea 12 del Metro"
+  tipo: mapaton
+  lugar: "Panadería La Esperanza, junto a Metro Zapata"
+  horario: "10:00"
+  descripcion: "Mapeamos la infraestructura de accesibilidad (elevadores, escaleras eléctricas, salvaescaleras) de las estaciones de la Línea 12 del Metro."
+  proyectos:
+    - "Pendientes & Escaleras"
+  imagen: "/assets/images/convocatorias/photo_2026-06-06.jpg"
+
+- fecha: "2026-05-27"
+  titulo: "Convocatoria #Bandatos 27 Mayo"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Mejoras en la interfaz de usuario de Transporte Público (Pendientes & Escaleras), LLMs aplicados a leyes (Todo Derecho Vecino), Mapabaches, y trabajo en el código de conducta desde Metabandatos."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - Mapabaches
+    - Metabandatos
+  imagen: "/assets/images/convocatorias/photo_2026-05-27.jpg"
+
+- fecha: "2026-05-13"
+  titulo: "Convocatoria #Bandatos 13 Mayo"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Mejoras en la interfaz de usuario de Transporte Público (Pendientes & Escaleras), LLMs aplicados a leyes (Todo Derecho Vecino), Mapabaches, y trabajo en el código de conducta desde Metabandatos. Buscamos personas con conocimiento en UI."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - Mapabaches
+    - Metabandatos
+  imagen: "/assets/images/convocatorias/photo_2026-05-13.jpg"
+
+- fecha: "2026-04-29"
+  titulo: "Convocatoria #Bandatos Abril"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Mejoras en la interfaz de usuario de Transporte Público (Pendientes & Escaleras), LLMs aplicados a leyes (Todo Derecho Vecino), Mapabaches, y trabajo en el código de conducta desde Metabandatos. Buscamos personas con conocimiento en UI."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - Mapabaches
+    - Metabandatos
+  imagen: "/assets/images/convocatorias/photo_2026-04-29.jpg"
+
+- fecha: "2026-04-30"
+  titulo: "Convocatoria #Bandatos – cierre de abril"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Nos vemos para cerrar con todo el mes de abril."
+  proyectos: []
+  imagen: "/assets/images/convocatorias/photo_2026-04-30.jpg"
+
+- fecha: "2026-04-15"
+  titulo: "Convocatoria #Bandatos"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Código de conducta y varios desde Metabandatos, mejoras en la interfaz de usuario y avances en Pendientes & Escaleras, fundamentación legal en Todo Derecho Vecino, Mapabaches, y revisión de la app Ban-K-Datos. Buscamos personas con conocimiento en UI."
+  proyectos:
+    - Metabandatos
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - Mapabaches
+    - Ban-K-Datos
+  imagen: "/assets/images/convocatorias/photo_2026-04-15.jpg"
+
+- fecha: "2026-03-11"
+  titulo: "Convocatoria #Bandatos Marzo"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Discusión de lo aprendido en el Open Data Day 2026 y continuación de los proyectos activos: Metabandatos, Pendientes & Escaleras, Todo Derecho Vecino, Mapabaches y Ban-K-Datos. Recibimos a la nueva comunidad bandatera. Buscamos personas interesadas en análisis de imágenes con IA."
+  proyectos:
+    - Metabandatos
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - Mapabaches
+    - Ban-K-Datos
+  imagen: "/assets/images/convocatorias/photo_2026-03-11.jpg"
+
 - fecha: "2026-03-07"
   titulo: "Día de los datos abiertos 2026"
   tipo: taller
@@ -12,6 +150,8 @@
     - banquetas
     - baches
     - vecinos
+  imagen: "/assets/images/convocatorias/photo_2026-03-07.jpg"
+
 - fecha: "2026-02-26"
   titulo: "Reunión Bandatos – enfoque Open Data Day"
   tipo: sesion
@@ -32,6 +172,7 @@
   lugar: "Nativo Condesa, Culiacán 15, CDMX"
   horario: "19:00"
   descripcion: "Enfocarnos en organizarnos para el evento del día de los datos abiertos y avanzar con los proyectos activos. Búsqueda de perfiles con conocimiento en análisis de imágenes con IA."
+  imagen: "/assets/images/convocatorias/photo_2026-02-11.jpg"
   proyectos:
     - Metabandatos
     - "Pendientes & Escaleras"
@@ -51,6 +192,7 @@
     - "Todo Derecho Vecino"
     - Pigmentocracia
     - Mapabaches
+  imagen: "/assets/images/convocatorias/photo_2026-01-28.jpg"
 
 - fecha: "2026-01-14"
   titulo: "Retomamos Bandatos"
@@ -59,6 +201,7 @@
   horario: "19:00"
   descripcion: "Después de una pausa, retomamos el espacio para reconectar y volver a activar la comunidad. Encuentro para conversar sobre datos e impacto social."
   proyectos: []
+  imagen: "/assets/images/convocatorias/photo_2026-01-14.jpg"
 
 - fecha: "2025-12-17"
   titulo: "Convocatoria #Bandatos – Miércoles 17 de diciembre"
@@ -69,6 +212,7 @@
   proyectos:
     - "Pendientes y escaleras"
     - "Todo derecho vecino"
+  imagen: "/assets/images/convocatorias/photo_2025-12-17.jpg"
 
 - fecha: "2025-12-03"
   titulo: "Convocatoria #Bandatos – Miércoles 3 de diciembre"
@@ -79,6 +223,7 @@
   proyectos:
     - "Pendientes y escaleras"
     - "Todo derecho vecino"
+  imagen: "/assets/images/convocatorias/photo_2025-12-03.jpg"
 
 - fecha: "2025-11-19"
   titulo: "Convocatoria #Bandatos – Miércoles 19 de noviembre"
@@ -88,6 +233,7 @@
   descripcion: "Análisis de la relación entre los diagramas realizados y los datos mapeados (accesibilidad metro)."
   proyectos:
     - "Pendientes y escaleras"
+  imagen: "/assets/images/convocatorias/photo_2025-11-19.jpg"
 
 - fecha: "2025-10-25"
   titulo: "Mapatón escaleras eléctricas Metro"
@@ -106,7 +252,7 @@
   lugar: "Nativo Condesa, Culiacán 15, CDMX"
   horario: "19:00"
   descripcion: "Finalizar detalles de la app para voluntaries y organizar el mapatón del sábado 25."
-  imagen: "/assets/images/convocatorias/oct25-2025-10-20.jpg"
+  imagen: "/assets/images/convocatorias/photo_2025-10-22.jpg"
   proyectos:
     - "Pendientes y escaleras"
 
@@ -127,6 +273,7 @@
   lugar: "Espacio Nativo, Culiacán 15, Col. Hipódromo"
   horario: "7:00 – 9:30"
   descripcion: "Ley de datos legislativos con BORDE. Pendientes y escaleras; prototipo en bandatos.github.io/pendientes-y-escaleras/."
+  imagen: "/assets/images/convocatorias/photo_2025-09-03.jpg"
   proyectos:
     - "Pendientes y escaleras"
     - "Ley datos legislativos"
@@ -137,9 +284,21 @@
   lugar: "Espacio Nativo, Condesa"
   horario: "7:00 a 9:30"
   descripcion: "Accesibilidad del Metro (mapa e instrumento de recolección). Estándares de datos legislativos con BORDE."
+  imagen: "/assets/images/convocatorias/photo_2025-08-20.jpg"
   proyectos:
     - "Accesibilidad del Metro"
     - "Estándares de datos legislativos"
+
+- fecha: "2025-08-06"
+  titulo: "Convocatoria #Bandatos – Miércoles 6 de agosto"
+  tipo: sesion
+  lugar: "Espacio Nativo, Culiacán 15, col. Hipódromo"
+  horario: "19:00 a 21:30"
+  descripcion: "Trabajamos en Metros y escaleras (relevamiento de accesibilidad en el Metro de CDMX) y en los anexos transversales del Presupuesto de Egresos de la Federación, con un script para extraer y estructurar los anexos en tablas. También mapeo de organizaciones que podrían necesitar esta información."
+  proyectos:
+    - "Metros y escaleras"
+    - "Anexos transversales PEF"
+  imagen: "/assets/images/convocatorias/photo-2025-08-06.png"
 
 - fecha: "2025-07-23"
   titulo: "Convocatoria #Bandatos"
@@ -147,6 +306,7 @@
   lugar: "Espacio Nativo, Culiacán 15, col. Hipódromo"
   horario: "7:00 a 9:30"
   descripcion: "Mapeo de organizaciones para anexos transversales del PEF; script que extraiga y estructure los anexos en tablas. Proyecto de accesibilidad del transporte en CDMX."
+  imagen: "/assets/images/convocatorias/photo_2025-07-23.jpg"
   proyectos:
     - "Anexos transversales PEF"
     - "Accesibilidad transporte CDMX"
@@ -157,4 +317,103 @@
   lugar: "Espacio Nativo, Culiacán 15, col. Hipódromo"
   horario: "7:00 a 9:30"
   descripcion: "Comunidad que trabaja en proyectos de datos con impacto social, propuestos por quienes asisten. Reunión quincenal."
+  imagen: "/assets/images/convocatorias/photo_2025-07-09.jpg"
   proyectos: []
+
+- fecha: "2025-05-21"
+  titulo: "Convocatoria #Bandatos"
+  tipo: sesion
+  lugar: "Espacio Nativo, Culiacán 15, col. Hipódromo"
+  horario: "7:00 a 9:30"
+  descripcion: "Lo prometido es deuda: sesión de Bandatos."
+  proyectos: []
+  imagen: "/assets/images/convocatorias/photo_2025-05-21.jpg"
+
+- fecha: "2025-04-09"
+  titulo: "Convocatoria #Bandatos"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Seguimiento al proyecto con Isla Urbana, antes de las vacaciones."
+  proyectos:
+    - "Isla Urbana"
+  imagen: "/assets/images/convocatorias/photo_2025-04-09.jpg"
+
+- fecha: "2025-04-02"
+  titulo: "Miércoles de Bandatos"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Ayudamos a Isla Urbana a rescatar sus datos históricos."
+  proyectos:
+    - "Isla Urbana"
+  imagen: "/assets/images/convocatorias/photo_2025-04-02.jpg"
+
+- fecha: "2025-03-19"
+  titulo: "Bandatón por Isla Urbana"
+  tipo: taller
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Sesión de trabajo con Isla Urbana."
+  proyectos:
+    - "Isla Urbana"
+  imagen: "/assets/images/convocatorias/photo_2025-03-19.jpg"
+
+- fecha: "2025-03-05"
+  titulo: "Miércoles de Bandatos"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Juntada informal para trabajar proyectos de datos."
+  proyectos: []
+  imagen: "/assets/images/convocatorias/photo_2025-03-05.jpg"
+
+- fecha: "2025-03-01"
+  titulo: "Registro abierto: Open Data Day y 1er #Bandatón"
+  tipo: taller
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "19:00"
+  descripcion: "Se abre el registro para el Open Data Day, incluyendo el primer #Bandatón."
+  proyectos: []
+  imagen: "/assets/images/convocatorias/photo_2025-03-01.jpg"
+  imagen2: "/assets/images/convocatorias/photo_2025-03-01-2.jpg"
+
+- fecha: "2025-02-19"
+  titulo: "Noche de datos cívicos"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "18:30"
+  descripcion: "Juntada informal para trabajar proyectos de datos."
+  proyectos: []
+  imagen: "/assets/images/convocatorias/photo_2025-02-19.jpg"
+  fecha_aproximada: true
+
+- fecha: "2024-07-10"
+  titulo: "Noche de datos cívicos"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "18:30"
+  descripcion: "Juntada informal para trabajar proyectos de datos."
+  proyectos: []
+  imagen: "/assets/images/convocatorias/photo_2024-07-10.jpg"
+  fecha_aproximada: true
+
+- fecha: "2024-06-19"
+  titulo: "Noche de datos cívicos"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "18:30"
+  descripcion: "Juntada informal para trabajar proyectos de datos."
+  proyectos: []
+  imagen: "/assets/images/convocatorias/photo_2024-06-19.jpg"
+  fecha_aproximada: true
+
+- fecha: "2024-06-05"
+  titulo: "Noche de datos cívicos — primera reunión de Bandatos"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "18:30"
+  descripcion: "Primera reunión de Bandatos: juntada informal para trabajar proyectos de datos cívicos."
+  proyectos: []
+  imagen: "/assets/images/convocatorias/photo_2024-05-05.jpg"
+  fecha_aproximada: true

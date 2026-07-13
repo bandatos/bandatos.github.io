@@ -286,21 +286,38 @@ a:hover {
   color: var(--bandatos-negro);
 }
 
+.convocatoria-cols {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.convocatoria-texto {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 .convocatoria-flyer-wrap {
-  max-width: 300px;
-  margin-top: 0.75rem;
+  flex: 0 0 auto;
+  width: 160px;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
+.convocatoria-flyer-wrap--doble {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
 .convocatoria-flyer-wrap--proxima {
-  max-width: 360px;
+  width: 200px;
 }
 
 .convocatoria-flyer {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   vertical-align: top;
 }
@@ -412,9 +429,14 @@ a:hover {
     margin-bottom: 0;
   }
 
+  .convocatoria-cols {
+    flex-direction: column;
+  }
+
   .convocatoria-flyer-wrap,
   .convocatoria-flyer-wrap--proxima {
-    max-width: 100%;
+    width: 100%;
+    max-width: 240px;
     margin-left: 0;
     margin-right: 0;
   }
