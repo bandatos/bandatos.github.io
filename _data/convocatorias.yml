@@ -1,13 +1,102 @@
 # Convocatorias extraídas de convocatorias.txt (más reciente primero)
 # Schema: fecha, titulo, tipo (sesion|mapaton), lugar, horario, descripcion, proyectos, enlace_registro (opcional), imagen (opcional)
 
-- fecha: "2026-07-15"
-  titulo: "Convocatoria #Bandatos — por definir"
+- fecha: "2026-11-18"
+  titulo: "Convocatoria #Bandatos: cuando los datos tumban a un funcionario"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "18:30 a 22:00"
+  descripcion: "¿Pueden unos datos públicos y una buena visualización costarle el puesto a un funcionario? Andrés \"Ruso\" Snitcofsky nos inspira con casos reales de datos y visualización para denunciar la corrupción. Empezamos con una bienvenida a quienes llegan por primera vez y cerramos con convivio. Trae algo para compartir."
+  proyectos: []
+  imagen: "/assets/images/convocatorias/photo_2026-11-18.jpg"
+
+- fecha: "2026-11-04"
+  titulo: "Convocatoria #Bandatos Noviembre"
   tipo: sesion
   lugar: "Nativo Condesa, Culiacán 15, CDMX"
   horario: "18:30"
-  descripcion: "Detalles de esta convocatoria todavía por definir."
-  proyectos: []
+  descripcion: "Seguimos con Pendientes & Escaleras, el chatbot para activismo urbano de Todo Derecho Vecino y el buscador y perfiles del Boletín Judicial de la Ciudad de México. Desde Metabandatos trabajamos el nuevo código de convivencia y protocolo, y abrimos la bolsa de ideas para adoptar o proponer proyectos. Buscamos gente interesada en derecho, comunicación, gestión de comunidades, diseño web y front end."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - "Boletín Judicial Accesible"
+    - Metabandatos
+  imagen: "/assets/images/convocatorias/photo_2026-11-04.jpg"
+
+- fecha: "2026-10-23"
+  titulo: "Presentación de proyectos #Bandatos en EstratigrafIA Jurídica"
+  tipo: taller
+  lugar: "ITAM Campus Río Hondo, Zona Palmeras, CDMX"
+  horario: "12:00 a 13:00"
+  descripcion: "Presentamos Boletín Judicial y Todo Derecho Vecino en EstratigrafIA Jurídica, organizado por Espacios Latentes con patrocinio de Nixtla y colaboración de Makers e ITAM."
+  proyectos:
+    - "Boletín Judicial Accesible"
+    - "Todo Derecho Vecino"
+  imagen: "/assets/images/convocatorias/photo_2026-10-23.jpg"
+
+- fecha: "2026-10-14"
+  titulo: "Convocatoria #Bandatos Octubre"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "18:30"
+  descripcion: "Seguimos con Pendientes & Escaleras (accesibilidad del Metro mapeada en OpenStreetMap) y el chatbot jurídico de activismo urbano de Todo Derecho Vecino. Desde Metabandatos, participación en listados de comunidades tech y el nuevo código de convivencia. Buscamos gente interesada en derecho, comunicación, gestión de comunidades y diseño web front end, y abrimos la bolsa de ideas para adoptar un proyecto."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - "Metabandatos"
+  imagen: "/assets/images/convocatorias/photo_2026-10-14.jpg"
+
+- fecha: "2026-09-23"
+  titulo: "Convocatoria #Bandatos Septiembre (2)"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "18:30"
+  descripcion: "Seguimos con Pendientes & Escaleras, el chatbot para activismo urbano de Todo Derecho Vecino y Boletín Judicial Accesible. Desde Metabandatos, participación en comunidades tech. Buscamos gente interesada en derecho, comunicación, gestión de comunidades, diseño web y front end, y análisis de datos."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - "Boletín Judicial Accesible"
+    - "Metabandatos"
+  imagen: "/assets/images/convocatorias/photo_2026-09-23.jpg"
+
+- fecha: "2026-09-02"
+  titulo: "Convocatoria #Bandatos Septiembre"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "18:30"
+  descripcion: "Seguimos con Pendientes & Escaleras, el chatbot para activismo urbano de Todo Derecho Vecino y Boletín Judicial Accesible. Desde Metabandatos, el nuevo código de convivencia y protocolo. Buscamos gente interesada en derecho, comunicación, gestión de comunidades, diseño web y front end."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - "Boletín Judicial Accesible"
+    - "Metabandatos"
+  imagen: "/assets/images/convocatorias/photo_2026-09-02.jpg"
+
+- fecha: "2026-08-19"
+  titulo: "Convocatoria #Bandatos Agosto"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "18:30"
+  descripcion: "Seguimos con Pendientes & Escaleras, el chatbot para activismo urbano de Todo Derecho Vecino y Boletín Judicial Accesible. Desde Metabandatos, el nuevo código de convivencia y protocolo. Buscamos gente interesada en derecho, comunicación, gestión de comunidades, diseño web y front end."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - "Boletín Judicial Accesible"
+    - "Metabandatos"
+  imagen: "/assets/images/convocatorias/photo_2026-08-19.jpg"
+
+- fecha: "2026-07-15"
+  titulo: "Convocatoria #Bandatos Julio (2)"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "18:30"
+  descripcion: "Empezamos más temprano, 18:30. Seguimos con Pendientes & Escaleras y el chatbot para activismo urbano de Todo Derecho Vecino, y suma Boletín Judicial Accesible. Desde Metabandatos discutimos el código de convivencia y el protocolo de resolución de disputas. Buscamos gente interesada en derecho, comunicación y gestión de comunidades."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - "Boletín Judicial Accesible"
+    - "Metabandatos"
+  imagen: "/assets/images/convocatorias/photo_2026-07-15.jpg"
 
 - fecha: "2026-07-01"
   titulo: "Convocatoria #Bandatos Julio"

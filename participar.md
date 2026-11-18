@@ -6,7 +6,7 @@ permalink: /participar/
 
 ## 🚪 Cómo unirte
 
-- **Presencial:** Cada quince días, los miércoles, en <a href="https://www.google.com/maps/search/?api=1&query=Culiacán+15+Hipódromo+Condesa+CDMX" target="_blank" rel="noopener">**Nativo Condesa** (Culiacán 15, CDMX)</a>, 7:00 a 9:30 h. Próxima fecha en [convocatorias](/convocatorias/).
+- **Presencial:** Cada quince días, los miércoles, en <a href="https://www.google.com/maps/search/?api=1&query=Culiacán+15+Hipódromo+Condesa+CDMX" target="_blank" rel="noopener">**Nativo Condesa** (Culiacán 15, CDMX)</a>, 18:30 a 22:00 h. Próxima fecha en [convocatorias](/convocatorias/).
 - **En línea:** Pide ingreso al <a href="https://t.me/+hA6EOxauLz1jZWRh" target="_blank" rel="noopener">grupo de Telegram</a>.
 
 No se requiere experiencia previa. Trae algo para compartir y ganas de sumar.

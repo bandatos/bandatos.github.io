@@ -9,14 +9,16 @@ Somos una comunidad mexicana de daterxs que trabaja en **proyectos de datos con 
 
 Espacio **abierto, no técnico**; no se requiere experiencia previa. Lo hacemos entre todes de forma **apartidaria, horizontal y colectiva**.
 
-**Dónde y cuándo:** Cada quince días, los miércoles, 7:00 a 9:30 h. Trae algo para compartir (comida o bebida). [Participar →](/participar/)
+**Dónde y cuándo:** Cada quince días, los miércoles, 18:30 a 22:00 h. Trae algo para compartir (comida o bebida). [Participar →](/participar/)
 
 ## 📅 Próxima sesión
 
 {% assign convocatorias_ordenadas = site.data.convocatorias | sort: "fecha" | reverse %}
 {% assign proxima = convocatorias_ordenadas | first %}
 {% if proxima %}
-**{{ proxima.titulo }}** — {{ proxima.fecha }} · {{ proxima.horario }}
+<p data-proxima-fecha="{{ proxima.fecha }}"><strong>{{ proxima.titulo }}</strong> · {{ proxima.fecha }} · {{ proxima.horario }}</p>
+<p class="convocatoria-por-definir" hidden>Próxima sesión por definir. Nos juntamos cada quince días, los miércoles.</p>
+<script src="{{ '/assets/js/proxima.js' | relative_url }}" defer></script>
 
 [Ver convocatorias →](/convocatorias/)
 {% else %}

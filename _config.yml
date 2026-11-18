@@ -30,6 +30,8 @@ logo: "/assets/images/bandatos_photo_2025-07-07_08-55-38.png"
 # Obtener en https://nocodeapi.com/instagram-api (conectar cuenta Instagram y copiar la URL del endpoint).
 # Si está vacío, no se muestra la sección.
 instagram_feed_api_url: ""
+# Google Tag Manager (contenedor GTM-...). Solo se carga en producción (GitHub Pages).
+google_tag_manager: "GTM-W8CN86NZ"
 #twitter_username: jekyllrb
 #github_username:  jekyll
 

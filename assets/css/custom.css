@@ -477,3 +477,6 @@ a:hover {
     padding: 0.75rem 1rem;
   }
 }
+
+/* Que el atributo hidden gane sobre display: flex/grid de las tarjetas */
+[hidden] { display: none !important; }

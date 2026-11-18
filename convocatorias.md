@@ -12,7 +12,7 @@ Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se 
 {% assign proxima = convocatorias_ordenadas | first %}
 
 {% if proxima %}
-<div class="convocatoria-proxima convocatoria-cols">
+<div class="convocatoria-proxima convocatoria-cols" data-proxima-fecha="{{ proxima.fecha }}">
   {% if proxima.imagen %}
   <div class="convocatoria-flyer-wrap convocatoria-flyer-wrap--proxima">
     <img src="{{ proxima.imagen | relative_url }}" alt="Flyer {{ proxima.titulo }}" class="convocatoria-flyer" loading="lazy" />
@@ -34,6 +34,10 @@ Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se 
     {% endif %}
   </div>
 </div>
+<div class="convocatoria-proxima convocatoria-por-definir" hidden>
+  <p><strong>Próxima sesión por definir.</strong></p>
+  <p>Nos juntamos cada quince días, los miércoles, en Nativo Condesa (Culiacán 15, CDMX). Revisa el <a href="https://t.me/+hA6EOxauLz1jZWRh">grupo de Telegram</a> o <a href="https://www.instagram.com/bandatos_cdmx/">Instagram</a> para enterarte de la fecha.</p>
+</div>
 {% else %}
 <p>Aún no hay próxima convocatoria. Revisa el <a href="https://t.me/+hA6EOxauLz1jZWRh">grupo de Telegram</a> o <a href="https://www.instagram.com/bandatos_cdmx/">Instagram</a> para estar al tanto.</p>
 {% endif %}
@@ -43,8 +47,8 @@ Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se 
 ## Historial de convocatorias
 
 <div class="convocatorias-lista">
-{% for c in convocatorias_ordenadas offset:1 %}
-  <article class="convocatoria-card convocatoria-cols">
+{% for c in convocatorias_ordenadas %}
+  <article class="convocatoria-card convocatoria-cols"{% if forloop.first %} data-proxima-fecha="{{ c.fecha }}" hidden{% endif %}>
     {% if c.imagen %}
     <div class="convocatoria-flyer-wrap{% if c.imagen2 %} convocatoria-flyer-wrap--doble{% endif %}">
       <img src="{{ c.imagen | relative_url }}" alt="Flyer {{ c.titulo }}" class="convocatoria-flyer" loading="lazy" />
@@ -64,3 +68,5 @@ Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se 
   </article>
 {% endfor %}
 </div>
+
+<script src="{{ '/assets/js/proxima.js' | relative_url }}"></script>
