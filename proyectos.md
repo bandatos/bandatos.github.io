@@ -12,10 +12,11 @@ Los proyectos son propuestos por quienes asisten. Puedes sumarte a uno activo o 
 
 {% assign activos = site.data.proyectos | where: "activo", true %}
 {% for p in activos %}
-<div class="proyecto-block">
+<div class="proyecto-block" id="{{ p.slug }}">
   <span class="etiqueta-estado activo">Activo</span>
   <h3 style="margin: 0.5em 0 0.25em 0;">{{ p.emoji }} {{ p.nombre }}</h3>
   <p style="margin: 0 0 0.5em 0;">{{ p.descripcion }}</p>
+  {% if p.relacionados %}<p class="proyecto-relacionados" style="margin: 0 0 0.5em 0;">Relacionado con: {% for slug in p.relacionados %}{% assign r = site.data.proyectos | where: "slug", slug | first %}{% if r %}<a href="#{{ r.slug }}">{{ r.emoji }} {{ r.nombre }}</a>{% unless forloop.last %}, {% endunless %}{% endif %}{% endfor %}</p>{% endif %}
   {% if p.repo != "" and p.repo != nil %}<a href="{{ p.repo }}">Repositorio</a>{% if p.demo != "" and p.demo != nil %} · {% endif %}{% endif %}{% if p.demo != "" and p.demo != nil %}<a href="{{ p.demo }}">Demo / sitio</a>{% endif %}
 </div>
 {% endfor %}

@@ -1,4 +1,4 @@
-# Proyectos: slug, nombre, etiqueta, emoji, descripcion, activo, repo, demo
+# Proyectos: slug, nombre, etiqueta, emoji, descripcion, activo, repo, demo, relacionados (slugs, opcional)
 
 - slug: pendientes-escaleras
   nombre: Pendientes y escaleras
@@ -17,6 +17,19 @@
   activo: true
   repo: "https://github.com/bandatos/todo-derecho-vecino"
   demo: "https://bandatos.github.io/todo-derecho-vecino/"
+  relacionados:
+    - boletin-judicial-cdmx
+
+- slug: boletin-judicial-cdmx
+  nombre: Boletín Judicial CDMX
+  etiqueta: Boletín Judicial
+  emoji: "🔎"
+  descripcion: "Buscador del Boletín Judicial del Poder Judicial de la CDMX, que solo se publica en PDF: busca por nombre, expediente o tipo de juicio en los boletines desde 2016 y consulta perfiles de empresas. Ahora estamos analizando cómo se usa."
+  activo: true
+  repo: "https://github.com/bandatos/boletin-judicial-cdmx"
+  demo: "https://boletinjudicial.bandatos.org/"
+  relacionados:
+    - todo-derecho-vecino
 
 - slug: mapabaches
   nombre: Mapabaches
