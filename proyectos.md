@@ -25,10 +25,23 @@ Los proyectos son propuestos por quienes asisten. Puedes sumarte a uno activo o 
 
 <p>Proyectos en conversación; aún no son activos. Si te interesa uno, súmate en una sesión para llevarlo adelante.</p>
 
-{% assign propuestos = site.data.proyectos | where: "activo", false %}
+{% assign propuestos = site.data.proyectos | where: "activo", false | where_exp: "item", "item.terminado != true" %}
 {% for p in propuestos %}
 <div class="proyecto-block propuesto">
   <span class="etiqueta-estado propuesto">Propuesto</span>
+  <h3 style="margin: 0.5em 0 0.25em 0;">{{ p.emoji }} {{ p.nombre }}</h3>
+  <p style="margin: 0 0 0.5em 0;">{{ p.descripcion }}</p>
+  {% if p.repo != "" and p.repo != nil %}<a href="{{ p.repo }}">Repositorio</a>{% endif %}
+</div>
+{% endfor %}
+
+
+<h2 class="proyectos-terminados">Terminados</h2>
+
+{% assign terminados = site.data.proyectos | where: "terminado", true %}
+{% for p in terminados %}
+<div class="proyecto-block terminado">
+  <span class="etiqueta-estado terminado">Terminado</span>
   <h3 style="margin: 0.5em 0 0.25em 0;">{{ p.emoji }} {{ p.nombre }}</h3>
   <p style="margin: 0 0 0.5em 0;">{{ p.descripcion }}</p>
   {% if p.repo != "" and p.repo != nil %}<a href="{{ p.repo }}">Repositorio</a>{% endif %}

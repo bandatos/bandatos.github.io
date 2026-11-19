@@ -480,3 +480,15 @@ a:hover {
 
 /* Que el atributo hidden gane sobre display: flex/grid de las tarjetas */
 [hidden] { display: none !important; }
+
+/* Proyectos terminados */
+.etiqueta-estado.terminado {
+  background-color: #e0e0e0;
+  color: #555;
+}
+.proyecto-block.terminado {
+  border-left-color: #999;
+}
+.proyectos-page h2.proyectos-terminados {
+  border-bottom-color: #999;
+}

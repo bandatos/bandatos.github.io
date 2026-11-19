@@ -1,4 +1,4 @@
-# Proyectos: slug, nombre, etiqueta, emoji, descripcion, activo, repo, demo, relacionados (slugs, opcional)
+# Proyectos: slug, nombre, etiqueta, emoji, descripcion, activo, repo, demo, relacionados (slugs, opcional), terminado (opcional, con activo: false)
 
 - slug: pendientes-escaleras
   nombre: Pendientes y escaleras
@@ -80,7 +80,17 @@
   nombre: Banquetas del terror
   etiqueta: Banquetas del terror
   emoji: "🛣️"
-  descripcion: "Proyecto sobre banquetas (convocatorias 2026)."
+  descripcion: "App para registrar y monitorear el estado de las banquetas en CDMX."
   activo: false
+  repo: ""
+  demo: ""
+
+- slug: isla-urbana
+  nombre: Isla Urbana
+  etiqueta: Isla Urbana
+  emoji: "💧"
+  descripcion: "Rescate de los datos históricos de Isla Urbana (2025 a 2026)."
+  activo: false
+  terminado: true
   repo: ""
   demo: ""
