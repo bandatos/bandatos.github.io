@@ -66,3 +66,21 @@
   activo: false
   repo: ""
   demo: ""
+
+- slug: mapabaches
+  nombre: Mapabaches
+  etiqueta: Mapabaches
+  emoji: "🗺️"
+  descripcion: "Mapeador de baches (datos sobre baches en CDMX)."
+  activo: false
+  repo: "https://github.com/bandatos/mapabaches"
+  demo: ""
+
+- slug: banquetas
+  nombre: Banquetas del terror
+  etiqueta: Banquetas del terror
+  emoji: "🛣️"
+  descripcion: "Proyecto sobre banquetas (convocatorias 2026)."
+  activo: false
+  repo: ""
+  demo: ""
