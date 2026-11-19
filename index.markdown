@@ -7,7 +7,7 @@ redirect_from:
 
 Somos una comunidad mexicana de daterxs que trabaja en **proyectos de datos con impacto social**, propuestos por quienes asisten. Puedes llegar con una idea nueva o sumarte a lo que ya construimos colectivamente.
 
-Espacio **abierto, no técnico**; no se requiere experiencia previa. Lo hacemos entre todes de forma **apartidaria, horizontal y colectiva**.
+Espacio **abierto, no técnico**; no se requiere experiencia previa. Lo hacemos entre todes de forma **apartidaria, horizontal y colectiva**. No tenemos relación con partidos políticos ni con instituciones de gobierno.
 
 **Dónde y cuándo:** Cada quince días, los miércoles, 18:30 a 22:00 h. Trae algo para compartir (comida o bebida). [Participar →](/participar/)
 
