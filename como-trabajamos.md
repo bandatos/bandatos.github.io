@@ -6,13 +6,17 @@ permalink: /como-trabajamos/
 
 ## ⏱️ La sesión (horario aproximado)
 
-- **7:00 – 7:15** Onboarding de nuevas personas (quién es Bandatos, formas de trabajo).
-- **7:15 – 7:30** Presentaciones personales en 30 segundos (nombre, especialidad, algo random — p. ej. último libro, serie favorita, superpoder que elegirías).
-- **7:30 – 7:45** Temas comunes (10 minutos).
-- **7:45 – 8:00** Presentación de proyectos por parte de líderes (2 min: nombre, objetivo, situación, necesidades).
-- **8:00 – 9:30** Cada quien elige en qué proyecto colaborar; se dividen los grupos y se trabaja.
-- **9:30** Registro de avances y necesidades (va a la convocatoria de la siguiente sesión). Se pueden presentar proyectos nuevos.
-- **9:50** Recoger, limpiar y cerrar.
+- **19:00** Bienvenida a quienes llegan por primera vez: quién es Bandatos y cómo trabajamos.
+- **19:15** Presentaciones de 30 segundos: pronombre, nombre, especialidad y algo random.
+- **19:30** Temas comunes (10 minutos).
+- **19:45** Líderes presentan sus proyectos en 2 minutos: objetivo, situación y necesidades.
+- **20:00** Cada quien elige en qué proyecto colaborar y se trabaja en grupos.
+- **21:30** Registro de avances y necesidades, que arma la convocatoria de la siguiente sesión. Se pueden presentar proyectos nuevos.
+- **21:50** Limpiar y desalojar.
+
+Hay dos grupos de Telegram: **Bandatos**, público, y **Proyectos Bandatos**, para quienes vienen a las sesiones presenciales.
+
+Siempre está abierto el espacio para denuncias: públicas durante la sesión, anónimas en el buzón y, si se trata de violencia sexual o física, por correo.
 
 ## 📋 Reglas de los proyectos
 
