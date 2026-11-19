@@ -6,17 +6,17 @@ permalink: /como-trabajamos/
 
 ## ⏱️ La sesión (horario aproximado)
 
-- **19:00** Bienvenida a quienes llegan por primera vez: quién es Bandatos y cómo trabajamos.
+- **18:30** Bienvenida a quienes vienen por primera vez: quién es Bandatos y cómo trabajamos. Si es tu primera vez, llega temprano.
+- **19:00** Arranque. Recordamos el código de convivencia y que siempre hay espacio para denuncias.
 - **19:15** Presentaciones de 30 segundos: pronombre, nombre, especialidad y algo random.
 - **19:30** Temas comunes (10 minutos).
 - **19:45** Líderes presentan sus proyectos en 2 minutos: objetivo, situación y necesidades.
 - **20:00** Cada quien elige en qué proyecto colaborar y se trabaja en grupos.
 - **21:30** Registro de avances y necesidades, que arma la convocatoria de la siguiente sesión. Se pueden presentar proyectos nuevos.
+- **21:40** Cierre: compartimos qué nos pareció la sesión y qué podemos mejorar.
 - **21:50** Limpiar y desalojar.
 
 Hay dos grupos de Telegram: **Bandatos**, público, y **Proyectos Bandatos**, para quienes vienen a las sesiones presenciales.
-
-Siempre está abierto el espacio para denuncias: públicas durante la sesión, anónimas en el buzón y, si se trata de violencia sexual o física, por correo.
 
 ## 📋 Reglas de los proyectos
 
@@ -42,4 +42,4 @@ Trimestrales (Metabandatos — el proyecto de gobernanza de la comunidad): qué 
 
 ## 🛡️ Convivencia
 
-Bandatos cuenta con un [código de convivencia](https://docs.google.com/document/d/1dLQD0SgRNPA29JDrdhMAkc2BZdpv-AF1RctxjCmQF5A/edit) y un [protocolo de resolución de disputas](https://docs.google.com/document/d/1Sqk5cPvcsyFL_69hiiPmUHRVNwZt94FdWxjOEsIhDfc/edit), adaptados de SocialTIC y aprobados el 18 de septiembre de 2026 por consenso grupal y votación en línea.
+Bandatos cuenta con un [código de convivencia](https://docs.google.com/document/d/1dLQD0SgRNPA29JDrdhMAkc2BZdpv-AF1RctxjCmQF5A/edit) y un [protocolo de resolución de disputas](https://docs.google.com/document/d/1Sqk5cPvcsyFL_69hiiPmUHRVNwZt94FdWxjOEsIhDfc/edit), adaptados de SocialTIC y aprobados el 18 de noviembre de 2026 por consenso grupal y votación en línea.

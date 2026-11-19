@@ -15,7 +15,7 @@ No se requiere experiencia previa. Trae algo para compartir y ganas de sumar.
 
 El grupo de Telegram Proyectos Bandatos es para quienes vienen a las sesiones presenciales. Si quieres trabajar en un proyecto, completa el <a href="https://docs.google.com/forms/d/1B5lhHI395cWfJG4RXyjKFazXZl13L-7iaQAqwbfify4/viewform" target="_blank" rel="noopener">formulario de inscripción</a> y te sumamos al grupo de proyectos.
 
-El formulario pide aceptar el <a href="https://docs.google.com/document/d/1dLQD0SgRNPA29JDrdhMAkc2BZdpv-AF1RctxjCmQF5A/edit" target="_blank" rel="noopener">código de convivencia</a> y el <a href="https://docs.google.com/document/d/1Sqk5cPvcsyFL_69hiiPmUHRVNwZt94FdWxjOEsIhDfc/edit" target="_blank" rel="noopener">protocolo de resolución de disputas</a> de Bandatos, aprobados el 18 de septiembre de 2026 por consenso grupal y votación en línea.
+El formulario pide aceptar el <a href="https://docs.google.com/document/d/1dLQD0SgRNPA29JDrdhMAkc2BZdpv-AF1RctxjCmQF5A/edit" target="_blank" rel="noopener">código de convivencia</a> y el <a href="https://docs.google.com/document/d/1Sqk5cPvcsyFL_69hiiPmUHRVNwZt94FdWxjOEsIhDfc/edit" target="_blank" rel="noopener">protocolo de resolución de disputas</a> de Bandatos, aprobados el 18 de noviembre de 2026 por consenso grupal y votación en línea.
 
 Para venir a las sesiones o estar en el grupo de Telegram no hace falta inscribirse.
 
