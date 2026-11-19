@@ -31,29 +31,11 @@
   relacionados:
     - todo-derecho-vecino
 
-- slug: mapabaches
-  nombre: Mapabaches
-  etiqueta: Mapabaches
-  emoji: "🗺️"
-  descripcion: "Mapeador de baches (datos sobre baches en CDMX)."
-  activo: true
-  repo: "https://github.com/bandatos/mapabaches"
-  demo: ""
-
-- slug: banquetas
-  nombre: Banquetas del terror
-  etiqueta: Banquetas del terror
-  emoji: "🛣️"
-  descripcion: "Proyecto sobre banquetas (convocatorias 2026)."
-  activo: true
-  repo: ""
-  demo: ""
-
 - slug: metabandatos
   nombre: Metabandatos
   etiqueta: Metabandatos
   emoji: "📋"
-  descripcion: "Gobernanza y mejora continua de la comunidad (retrospectivas, formas de trabajo)."
+  descripcion: "Gobernanza y mejora continua de la comunidad: retrospectivas, formas de trabajo, código de convivencia y protocolo de resolución de disputas."
   activo: true
   repo: ""
   demo: ""

@@ -38,4 +38,4 @@ Trimestrales (Metabandatos — el proyecto de gobernanza de la comunidad): qué 
 
 ## 🛡️ Convivencia
 
-Bandatos cuenta con un [código de convivencia](https://docs.google.com/document/d/1dLQD0SgRNPA29JDrdhMAkc2BZdpv-AF1RctxjCmQF5A/edit) y un [protocolo de resolución de disputas](https://docs.google.com/document/d/1Sqk5cPvcsyFL_69hiiPmUHRVNwZt94FdWxjOEsIhDfc/edit), adaptados de SocialTIC. Son propuestas provisionales, en discusión desde el 28 de marzo de 2026, todavía no aceptadas por consenso de todo el grupo.
+Bandatos cuenta con un [código de convivencia](https://docs.google.com/document/d/1dLQD0SgRNPA29JDrdhMAkc2BZdpv-AF1RctxjCmQF5A/edit) y un [protocolo de resolución de disputas](https://docs.google.com/document/d/1Sqk5cPvcsyFL_69hiiPmUHRVNwZt94FdWxjOEsIhDfc/edit), adaptados de SocialTIC y aprobados el 18 de septiembre de 2026 por consenso grupal y votación en línea.
