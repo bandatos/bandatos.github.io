@@ -24,3 +24,5 @@ Para venir a las sesiones o estar en el grupo de Telegram no hace falta inscribi
 Entra a <a href="https://www.instagram.com/bandatos_cdmx/" target="_blank" rel="noopener">**@bandatos_cdmx**</a> o escanea el código:
 
 <p><img src="{{ '/assets/images/bandatos_cdmx_qr.png' | relative_url }}" alt="QR Instagram @bandatos_cdmx" style="max-width: 220px; height: auto;" /></p>
+
+También estamos en <a href="https://www.linkedin.com/company/bandatos/" target="_blank" rel="noopener">**LinkedIn**</a>.

@@ -1,6 +1,19 @@
 # Convocatorias extraídas de convocatorias.txt (más reciente primero)
 # Schema: fecha, titulo, tipo (sesion|mapaton), lugar, horario, descripcion, proyectos, enlace_registro (opcional), imagen (opcional)
 
+- fecha: "2026-12-02"
+  titulo: "Convocatoria #Bandatos Diciembre: Claude Code para no programadores"
+  tipo: sesion
+  lugar: "Nativo Condesa, Culiacán 15, CDMX"
+  horario: "18:30 a 22:00"
+  descripcion: "¿Quieres comenzar con la IA? Ricardo Sanginés da la charla \"Claude Code para no programadores, la IA agéntica como potencializador de tu trabajo\". Espacio abierto y no técnico, no se requiere experiencia previa. Empezamos con una bienvenida a quienes llegan por primera vez, seguimos con la charla y preguntas, y cerramos con convivio. Trae algo para compartir."
+  proyectos:
+    - "Pendientes & Escaleras"
+    - "Todo Derecho Vecino"
+    - "Boletín Judicial Accesible"
+    - Metabandatos
+  imagen: "/assets/images/convocatorias/photo_2026-12-02.jpg"
+
 - fecha: "2026-11-18"
   titulo: "Convocatoria #Bandatos: cuando los datos tumban a un funcionario"
   tipo: sesion
