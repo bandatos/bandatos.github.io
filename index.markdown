@@ -31,7 +31,7 @@ Espacio **abierto, no técnico**; no se requiere experiencia previa. Lo hacemos 
 
 ## 📂 Proyectos activos
 
-{% assign activos = site.data.proyectos | where: "activo", true | where_exp: "item", "item.slug != 'metabandatos'" %}
+{% assign activos = site.data.proyectos | where: "activo", true %}
 <div class="home-proyectos-grid">
 {% for p in activos %}
   <a href="{{ "/proyectos/" | relative_url }}" class="home-proyecto-card">
