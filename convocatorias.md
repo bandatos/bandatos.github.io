@@ -8,11 +8,12 @@ Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se 
 
 ## Próxima sesión
 
+{% assign hoy = site.time | date: "%Y-%m-%d" %}
 {% assign convocatorias_ordenadas = site.data.convocatorias | sort: "fecha" | reverse %}
-{% assign proxima = convocatorias_ordenadas | first %}
+{% assign futuras = site.data.convocatorias | where_exp: "c", "c.fecha >= hoy" | sort: "fecha" %}
 
-{% if proxima %}
-<div class="convocatoria-proxima convocatoria-cols" data-proxima-fecha="{{ proxima.fecha }}">
+{% for proxima in futuras %}
+<div class="convocatoria-proxima convocatoria-cols" data-proxima-fecha="{{ proxima.fecha }}"{% unless forloop.first %} hidden{% endunless %}>
   {% if proxima.imagen %}
   <div class="convocatoria-flyer-wrap convocatoria-flyer-wrap--proxima">
     <img src="{{ proxima.imagen | relative_url }}" alt="Flyer {{ proxima.titulo }}" class="convocatoria-flyer" loading="lazy" />
@@ -34,13 +35,11 @@ Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se 
     {% endif %}
   </div>
 </div>
-<div class="convocatoria-proxima convocatoria-por-definir" hidden>
+{% endfor %}
+<div class="convocatoria-proxima convocatoria-por-definir"{% if futuras.size > 0 %} hidden{% endif %}>
   <p><strong>Próxima sesión por definir.</strong></p>
   <p>Nos juntamos cada quince días, los miércoles, en Nativo Condesa (Culiacán 15, CDMX). Revisa el <a href="https://t.me/+hA6EOxauLz1jZWRh">grupo de Telegram</a> o <a href="https://www.instagram.com/bandatos_cdmx/">Instagram</a> para enterarte de la fecha.</p>
 </div>
-{% else %}
-<p>Aún no hay próxima convocatoria. Revisa el <a href="https://t.me/+hA6EOxauLz1jZWRh">grupo de Telegram</a> o <a href="https://www.instagram.com/bandatos_cdmx/">Instagram</a> para estar al tanto.</p>
-{% endif %}
 
 ---
 
@@ -48,7 +47,7 @@ Cada sesión arma la convocatoria de la siguiente (avances y necesidades que se 
 
 <div class="convocatorias-lista">
 {% for c in convocatorias_ordenadas %}
-  <article class="convocatoria-card convocatoria-cols"{% if forloop.first %} data-proxima-fecha="{{ c.fecha }}" hidden{% endif %}>
+  <article class="convocatoria-card convocatoria-cols" data-historial-fecha="{{ c.fecha }}"{% if c.fecha >= hoy %} hidden{% endif %}>
     {% if c.imagen %}
     <div class="convocatoria-flyer-wrap{% if c.imagen2 %} convocatoria-flyer-wrap--doble{% endif %}">
       <img src="{{ c.imagen | relative_url }}" alt="Flyer {{ c.titulo }}" class="convocatoria-flyer" loading="lazy" />

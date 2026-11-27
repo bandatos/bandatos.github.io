@@ -1,12 +1,15 @@
-// Si la "próxima" convocatoria ya pasó, la pasa al historial y muestra "por definir".
-// El sitio se compila solo al publicar, por eso la comparación se hace en el navegador.
 (function () {
   var hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Mexico_City' }).format(new Date());
-  var bloques = document.querySelectorAll('[data-proxima-fecha]');
-  if (!bloques.length || bloques[0].getAttribute('data-proxima-fecha') >= hoy) return;
-  bloques.forEach(function (el) {
-    if (el.tagName === 'ARTICLE') el.hidden = false; // tarjeta en el historial
-    else el.hidden = true;                            // bloque de próxima sesión
+  // Próxima: la primera convocatoria cuya fecha todavía no pasó.
+  var mostrada = false;
+  document.querySelectorAll('[data-proxima-fecha]').forEach(function (el) {
+    var vigente = el.getAttribute('data-proxima-fecha') >= hoy;
+    el.hidden = !(vigente && !mostrada);
+    if (vigente && !mostrada) mostrada = true;
   });
-  document.querySelectorAll('.convocatoria-por-definir').forEach(function (el) { el.hidden = false; });
+  document.querySelectorAll('.convocatoria-por-definir').forEach(function (el) { el.hidden = mostrada; });
+  // Historial: solo las que ya pasaron.
+  document.querySelectorAll('[data-historial-fecha]').forEach(function (el) {
+    el.hidden = el.getAttribute('data-historial-fecha') >= hoy;
+  });
 })();

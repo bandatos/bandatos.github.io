@@ -13,17 +13,15 @@ Espacio **abierto, no técnico**; no se requiere experiencia previa. Lo hacemos 
 
 ## 📅 Próxima sesión
 
-{% assign convocatorias_ordenadas = site.data.convocatorias | sort: "fecha" | reverse %}
-{% assign proxima = convocatorias_ordenadas | first %}
-{% if proxima %}
-<p data-proxima-fecha="{{ proxima.fecha }}"><strong>{{ proxima.titulo }}</strong> · {{ proxima.fecha }} · {{ proxima.horario }}</p>
-<p class="convocatoria-por-definir" hidden>Próxima sesión por definir. Nos juntamos cada quince días, los miércoles.</p>
+{% assign hoy = site.time | date: "%Y-%m-%d" %}
+{% assign futuras = site.data.convocatorias | where_exp: "c", "c.fecha >= hoy" | sort: "fecha" %}
+{% for proxima in futuras %}
+<p data-proxima-fecha="{{ proxima.fecha }}"{% unless forloop.first %} hidden{% endunless %}><strong>{{ proxima.titulo }}</strong> · {{ proxima.fecha }} · {{ proxima.horario }}</p>
+{% endfor %}
+<p class="convocatoria-por-definir"{% if futuras.size > 0 %} hidden{% endif %}>Próxima sesión por definir. Nos juntamos cada quince días, los miércoles.</p>
 <script src="{{ '/assets/js/proxima.js' | relative_url }}" defer></script>
 
 [Ver convocatorias →](/convocatorias/)
-{% else %}
-[Ver convocatorias →](/convocatorias/)
-{% endif %}
 
 ## 📂 Proyectos activos
 

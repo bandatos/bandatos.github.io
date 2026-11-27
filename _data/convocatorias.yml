@@ -1,6 +1,14 @@
 # Convocatorias extraídas de convocatorias.txt (más reciente primero)
 # Schema: fecha, titulo, tipo (sesion|mapaton), lugar, horario, descripcion, proyectos, enlace_registro (opcional), imagen (opcional)
 
+- fecha: "2026-12-16"
+  titulo: "Posada #Bandatos"
+  tipo: sesion
+  lugar: "Por definir"
+  horario: "Por definir"
+  descripcion: "Cerramos el año con una posada. Pronto compartimos lugar, horario y detalles en Telegram e Instagram."
+  proyectos: []
+
 - fecha: "2026-12-02"
   titulo: "Convocatoria #Bandatos Diciembre: Claude Code para no programadores"
   tipo: sesion
