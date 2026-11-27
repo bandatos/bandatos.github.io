@@ -492,3 +492,129 @@ a:hover {
 .proyectos-page h2.proyectos-terminados {
   border-bottom-color: #999;
 }
+
+/* ========== Accesibilidad ========== */
+a:visited {
+  color: var(--bandatos-verde);
+}
+.site-footer a:visited,
+.footer-nav-links a:visited {
+  color: var(--bandatos-verde);
+}
+
+/* Enlaces dentro de texto: subrayados, no solo por color (WCAG 1.4.1) */
+.post-content p a,
+.post-content li a,
+.home > p a,
+.home li a,
+.convocatoria-texto p a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+/* Contraste del texto del footer (WCAG 1.4.3) */
+.site-footer p,
+.site-footer .footer-col p {
+  color: #5f5f5f;
+}
+
+/* Foco visible (WCAG 2.4.7) */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--bandatos-verde);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+main:focus {
+  outline: none;
+}
+
+/* Saltar al contenido (WCAG 2.4.1) */
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -3rem;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: var(--bandatos-verde);
+  color: white !important;
+  border-radius: 0 0 6px 6px;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Menú: botón accesible en lugar del checkbox de minima */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 0;
+  padding: 10px 9px;
+  cursor: pointer;
+  line-height: 0;
+}
+.nav-toggle svg {
+  fill: #424242;
+}
+@media screen and (max-width: 600px) {
+  .site-nav .nav-toggle {
+    display: block;
+    float: right;
+  }
+  .site-nav .trigger {
+    clear: both;
+  }
+  .site-nav.nav-js .trigger {
+    display: none;
+  }
+  .site-nav.nav-js.nav-abierto .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+}
+
+/* ========== Home ========== */
+.boton-participar {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  background: var(--bandatos-verde);
+  color: white !important;
+  border-radius: 6px;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+.boton-participar:hover {
+  background: var(--bandatos-rojo);
+}
+
+.convocatoria-despues {
+  margin-bottom: 1.5rem;
+}
+.convocatoria-despues p {
+  margin-bottom: 0.25rem;
+}
+
+/* ========== Historial por año ========== */
+.convocatorias-anio {
+  margin-bottom: 1.25rem;
+}
+.convocatorias-anio > summary {
+  cursor: pointer;
+  list-style-position: outside;
+  margin-bottom: 1rem;
+}
+.convocatorias-anio > summary h3 {
+  display: inline;
+  margin: 0;
+}
+.convocatorias-conteo {
+  font-weight: normal;
+  color: #5f5f5f;
+}
+
+/* Sin saltos de diseño: los flyers tienen width/height, que no se deformen */
+.convocatoria-flyer {
+  height: auto;
+}

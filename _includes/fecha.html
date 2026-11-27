@@ -1,0 +1,7 @@
+{%- comment -%}Uso: include fecha.html fecha="2026-12-02" anio=true dia=true{%- endcomment -%}
+{%- assign dias = "domingo,lunes,martes,miércoles,jueves,viernes,sábado" | split: "," -%}
+{%- assign meses = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," -%}
+{%- assign n_dia = include.fecha | date: "%w" | plus: 0 -%}
+{%- assign n_mes = include.fecha | date: "%-m" | minus: 1 -%}
+{%- if include.dia != false -%}{{ dias[n_dia] }} {% endif -%}
+{{ include.fecha | date: "%-d" }} de {{ meses[n_mes] }}{% if include.anio %} de {{ include.fecha | date: "%Y" }}{% endif -%}

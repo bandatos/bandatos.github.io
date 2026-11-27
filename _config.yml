@@ -23,7 +23,8 @@ title: "#Bandatos"
 description: >- # this means to ignore newlines until "baseurl:"
   Comunidad mexicana de daterxs.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bandatos.org"
+lang: es
 # Logo del sitio (tres formas + texto BANDATOS)
 logo: "/assets/images/bandatos_photo_2025-07-07_08-55-38.png"
 # Feed de Instagram (opcional): URL del API de NoCodeAPI para mostrar últimas publicaciones.

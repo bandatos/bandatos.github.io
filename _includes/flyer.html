@@ -1,0 +1,2 @@
+{%- assign dims = site.data.flyers[include.src] -%}
+<img src="{{ include.src | relative_url }}" alt="" class="convocatoria-flyer"{% if dims %} width="{{ dims[0] }}" height="{{ dims[1] }}"{% endif %}{% unless include.eager %} loading="lazy"{% endunless %} />
